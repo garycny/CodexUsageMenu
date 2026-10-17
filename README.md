@@ -122,11 +122,21 @@ docs/                    英文说明、快照协议与发布指南
 
 </details>
 
-## 支持项目
+<h2 align="center">支持项目</h2>
 
-欢迎 Star、反馈问题或提交 PR。如果这个工具对你有帮助，也可以通过[微信打赏](docs/support.md)支持维护。打赏完全自愿，不影响任何功能或支持优先级。
+<p align="center">
+  <strong>如果这个小工具对你有帮助，欢迎请我喝杯咖啡 ☕</strong><br>
+  也欢迎 Star、反馈问题或提交 PR，一起让它更好用。
+</p>
 
-<a href="docs/support.md"><img src="docs/assets/wechat-pay.png" width="200" alt="微信打赏二维码"></a>
+<p align="center">
+  <a href="docs/support.md"><img src="docs/assets/wechat-support-card.png" width="360" alt="微信 · 请我喝咖啡，支持 garycny 维护项目"></a>
+</p>
+
+<p align="center">
+  打开微信扫一扫，或保存图片后在微信中识别。<br>
+  打赏完全自愿，不影响任何功能或支持优先级。
+</p>
 
 ## 许可证
 
