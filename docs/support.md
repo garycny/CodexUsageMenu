@@ -6,7 +6,7 @@
 ## 微信打赏 / WeChat Pay
 
 <p align="center">
-  <img src="assets/wechat-pay.png" width="320" alt="支持 garycny 的微信收款二维码">
+  <a href="assets/wechat-support-card.png"><img src="assets/wechat-support-card.png" width="360" alt="微信 · 请我喝咖啡，支持 garycny 维护项目"></a>
 </p>
 
 使用微信扫一扫，或保存图片后从微信相册识别。金额由你自行决定。
