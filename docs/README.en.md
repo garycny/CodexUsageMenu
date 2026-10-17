@@ -8,12 +8,15 @@ An independent community project, not affiliated with or endorsed by OpenAI.
 
 ## Preview
 
-<p>
-  <img src="assets/panel-light.png" width="200" alt="Light mode: allowances and reset details">
-  <img src="assets/panel-dark.png" width="200" alt="Dark mode: allowances and reset details">
-</p>
+**Allowance overview · Light and dark modes**
 
-Rendered from the actual AppKit interface using fictional data, with no real account information.
+![Light and dark modes with five-hour and weekly allowances](assets/promo/promo-overview.png)
+
+**Reset-credit details · Expanded view**
+
+![Expanded reset-credit details with issue dates, expiry dates, and availability](assets/promo/promo-reset-details.png)
+
+Based on real product screenshots with the account anonymized. Values and dates are illustrative; menu bar spacing is adjusted for the promotional layout.
 
 ## Requirements and build
 
