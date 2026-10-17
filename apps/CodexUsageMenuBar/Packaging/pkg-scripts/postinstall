@@ -1,0 +1,10 @@
+#!/bin/sh
+
+CONSOLE_USER="$(stat -f %Su /dev/console)"
+if [ "$CONSOLE_USER" != "root" ] && [ -n "$CONSOLE_USER" ]; then
+	CONSOLE_UID="$(id -u "$CONSOLE_USER")"
+	launchctl asuser "$CONSOLE_UID" open "/Applications/Codex Usage.app" >/dev/null 2>&1 || true
+else
+	open "/Applications/Codex Usage.app" >/dev/null 2>&1 || true
+fi
+exit 0

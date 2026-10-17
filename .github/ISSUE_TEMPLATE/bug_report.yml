@@ -1,0 +1,30 @@
+name: Bug report / 问题反馈
+description: Report a reproducible problem without sharing account data.
+body:
+  - type: markdown
+    attributes:
+      value: "请勿上传完整快照、邮箱、token 或对话。安全漏洞请参阅 SECURITY.md。"
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / 环境
+      description: macOS、Python、Codex、应用版本，以及源码构建或安装包来源。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps / 复现步骤
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual behavior / 预期与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Sanitized error / 脱敏错误
+      description: 仅提供 lastError.code、lastError.stage 或脱敏截图。
